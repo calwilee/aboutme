@@ -7,4 +7,5 @@ image: /assets/images/78914.jpg
 ---
 
 This is content for my post
+
 ![]({{ page.image | relative_url }})
