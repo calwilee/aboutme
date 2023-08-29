@@ -1,0 +1,35 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+      </div>
+    </div>
+
+    <div class="social-links">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Calwin Li</li><li><a class="u-email" href="mailto:calwinlee@gmail.com">calwinlee@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/calwilee"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">calwilee</span></a></li><li><a href="https://www.twitter.com/kudasai86/"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">twitter</span></a></li></ul>
+</div>
+    </div>
+
+    <div class="footer-col">
+    </div>
+  </div>
+
+</footer>

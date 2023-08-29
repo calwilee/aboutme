@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Car
-permalink: /car/
+title: Experience
+permalink: /experince/
 ---
 
 hey
